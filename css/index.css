@@ -1,0 +1,681 @@
+.header-section {
+  background-image: url('../Drawings/head.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat:no-repeat;
+  padding-bottom: 230px;
+}
+
+
+/* .header-section .section-one CSS Start */
+.section-one .nav {
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.navbar-nav>li>a:hover {
+  color: #efeb00!important;
+}
+
+.section-one .nav a {
+  color: white!important;
+}
+
+.navbar-brand>img {
+    margin-top: -10px;
+}
+
+.section-one .navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   padding-top: 20px;
+   padding-bottom: 60px;
+}
+
+.navbar li {
+    color: #000;
+    text-align: center;
+  }
+
+@media (max-width: 1199px) {
+    .navbar-header {
+        float: none;
+        padding-bottom: 10px;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px!important;
+        margin-left: 0px!important;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+/*  END Of .header-section .section-one CSS */
+
+
+
+/* .header-section .section-two CSS */
+.header-section .section-two {
+  margin-top: 100px;
+  color: white;
+}
+
+.section-two h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-two .span-dot {
+  padding-right: 10px;
+  padding-left: 3px;
+  color: #ffde00;
+  font-size: 40px;
+}
+
+.section-two p {
+  font-size: 15px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+@media only screen and (min-width:320px) and (max-width: 640px) {
+  .section-two h1 {
+    font-size: 42px;
+  }
+
+  .section-two .span-dot {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .section-two h1 {
+    font-size: 34px;
+  }
+
+  .section-two .span-dot {
+    font-size: 20.4px;
+  }
+}
+/* END Of .header-section .section-tow CSS*/
+
+
+
+/* .header-section .section-three CSS */
+.section-three div > a {
+  margin: 10px 30px;
+  width: 155px;
+}
+
+.section-three .btn-primary {
+  border-color: #FFFFFF;
+  border-width: initial;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.section-three div > a:first-child:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.section-three div > a:last-child {
+  background-color: rgb(241, 210, 4);
+}
+
+.section-three div > a:last-child:hover {
+  background-color: rgba(241, 210, 4, 0.8);
+}
+/* END Of .header-section .section-three CSS */
+
+
+
+/* .body-section .section-about CSS */
+.body-section {
+  margin-top: 40px;
+}
+
+.body-section .section-about {
+  margin-bottom: 30px;
+}
+
+.body-section .section-about h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 27px;
+}
+
+.body-section .section-about p {
+  color: #888888;
+}
+/* END Of .body-section .section-about CSS */
+
+
+
+/* .body-section .section-progress CSS */
+.body-section .section-progress {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.body-section p {
+  font-size: 18px;
+}
+
+.body-section i {
+  font-size: 22px;
+}
+
+.section-progress .row-one .progress-bar {
+  width: 60%;
+  background-color: #f18b6d;
+}
+
+.section-progress .row-one p {
+  color: #f18b6d;
+}
+
+.section-progress .row-two .progress-bar {
+  width: 82%;
+  background-color: #f1d204;
+}
+
+.section-progress .row-two p {
+  color: #f1d204;
+}
+
+.section-progress .row-three .progress-bar {
+  width: 86%;
+  background-color: #6a4d8a;
+}
+
+.section-progress .row-three p {
+  color: #6a4d8a;
+}
+
+.body-section .row-one,
+.body-section .row-two,
+.body-section .row-three {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* END Of .body-section .section-progress CSS */
+
+
+
+/* .body-section .section-project CSS */
+.body-section .section-project {
+  padding-top: 20px;
+  background-color: #fbfbfb;
+}
+
+.section-project .container h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 27px;
+}
+
+.section-project .container p {
+  padding-top: 15px;
+  margin-bottom: 60px;
+  color: #888888;
+}
+
+.section-project .container-fluid div > div {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.section-project .container-fluid div > div:hover {
+  opacity: 0.7;
+  transition: all .2s ease-in;
+}
+/* END Of .body-section .section-project CSS */
+
+
+
+/* .body-section .section-testimonial CSS */
+.body-section .section-testimonial {
+  background: linear-gradient(to bottom,#6a305e 0%,#451c56 100%);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.section-testimonial .text-center h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 27px;
+}
+
+.section-testimonial .section-carousel {
+    padding-top: 40px;
+}
+
+#fadeQuoteCarousel.carousel {
+  padding-bottom: 60px;
+}
+
+#fadeQuoteCarousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+
+#fadeQuoteCarousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+
+#fadeQuoteCarousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+
+#fadeQuoteCarousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+
+#fadeQuoteCarousel blockquote {
+  text-align: center;
+  border: none;
+  background-color: #682e66;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#fadeQuoteCarousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+/* END Of .body-section .section-testimonial CSS */
+
+
+
+/* .body-section .section-service CSS */
+.body-section .section-service {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.section-service .service-head h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 27px;
+}
+
+.section-service .service-body {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #888888;
+}
+
+.section-service .col-one h1,
+.section-service .col-one h4 {
+  color: #f18b6d;
+}
+
+.section-service .col-two h1,
+.section-service .col-two h4 {
+  color: #f1d204;
+}
+
+.section-service .col-three h1,
+.section-service .col-three h4 {
+  color: #6a4d8a;
+}
+
+.section-service .service-body p {
+  padding-top: 20px;
+}
+/* END Of .body-section .section-service CSS */
+
+
+
+/* .body-section .section-latest-news CSS */
+.body-section .section-latest-news {
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.section-latest-news .text-center h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 27px;
+}
+
+.section-latest-news .text-center p {
+  font-size: 15px;
+  color: #888888;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.section-latest-news .text-center a > i {
+  font-size: 15px;
+}
+
+.section-latest-news .text-center a {
+  background-color: #f1d204;
+  border-color: unset;
+  padding: 18px 60px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-latest-news .row img {
+  margin-top: 20px;
+}
+
+.section-latest-news .row h4 {
+  color: black;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.section-latest-news .row p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.section-latest-news .row a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #f1d204;
+}
+
+.section-latest-news .row a:hover {
+  color: #333;
+}
+
+.section-latest-news .row a > i {
+  font-size: 17px;
+}
+/* END Of .body-section .section-latest-news CSS */
+
+
+
+/* .body-section .section-project-count CSS */
+.body-section .section-project-count {
+  background-image: url('../Drawings/back.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  background-repeat:no-repeat;
+}
+
+.section-project-count .image-dark {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.498039);
+  color: white;
+}
+
+.body-section .lines {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+@media (max-width: 768px) {
+  .body-section .lines {
+    border-left: none;
+    border-right: none;
+  }
+}
+/* END Of .body-section .section-project-count CSS */
+
+
+
+/* .body-section .section-team CSS */
+.body-section .section-team {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.section-team .team-header h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 27px;
+}
+
+.section-team .team-header p {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.section-team .inner-row img {
+  max-width: 120px;
+}
+
+.section-team .inner-row h4 {
+  font-weight: normal;
+}
+
+.section-team .inner-row p {
+  color: #888888;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.section-team .social ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+}
+
+.section-team .inner-row span {
+  color: white;
+}
+
+.section-team .social ul > li {
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-left: 8px;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.inner-row .row-one h6 {
+  color: #f18b6d;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.inner-row .row-one li {
+  background-color: #f18b6d;
+}
+
+.inner-row .row-two h6 {
+  color: #f1d204;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.inner-row .row-two li {
+  background-color: #f1d204;
+}
+
+.inner-row .row-three h6 {
+  color: #6a4d8a;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.inner-row .row-three li {
+  background-color: #6a4d8a;
+}
+/* END Of .body-section .section-team CSS */
+
+
+
+/* .body-section .section-contact-us CSS */
+.body-section .section-contact-us {
+  background-color: #dda06f;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.section-contact-us .text-center h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+
+.section-contact-us .text-center p {
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+.section-contact-us .col-xs-4 p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section-contact-us .col-xs-4 {
+  padding-left: 0px;
+  padding-right: 0px;
+  border-right: 1px white solid;
+}
+
+.section-contact-us .col-xs-8 p {
+  font-size: 15px;
+  color: #fee3bf;
+}
+
+.section-contact-us .social ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+}
+
+.section-contact-us .social span {
+  color: white;
+  font-size: 20px;
+}
+
+.section-contact-us .social span:hover {
+  color: #333;
+}
+
+.section-contact-us .social ul > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.section-contact-us .row-two {
+  margin-top: 50px;
+}
+
+.section-contact-us .row-two ::-webkit-input-placeholder {
+  color: white;
+}
+
+.section-contact-us .form-group input {
+  background-color: #df955b;
+  height: 50px;
+  color: white;
+  border-color: #efa66c;
+}
+
+.section-contact-us .form-group textarea {
+  background-color: #df955b;
+  color: white;
+  border-color: #efa66c;
+}
+
+.section-contact-us .form-group button {
+  background-color: white;
+  color: #df955b;
+  font-weight: bold;
+  padding: 10px 40px;
+  float: right;
+  margin-top: 20px;
+}
+/* END Of .body-section .section-contact-us CSS */
+
+
+
+/* .footer-section CSS */
+.footer-section {
+  background-color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #888888;
+  font-size: 13px;
+}
+
+.footer-section .widget h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-section .widget ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-section .widget li:before {
+  content: "\276f";
+  margin-right: 1em;
+}
+
+.footer-section .widget li {
+  padding: 10px 0px;
+}
+
+.footer-section .widget a {
+  color: #888888;
+}
+
+.footer-section .widget a:hover {
+  color: #f1d204;
+  text-decoration: none;
+}
+
+.footer-section .footer-logo {
+  padding-top: 30px;
+}
+.footer-section .footer-logo p {
+  padding-top: 10px;
+}
+/* END Of .footer-section CSS */
